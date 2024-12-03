@@ -1,0 +1,46 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header__registration {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__registration > *:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .header__registration .header__logout {
+    margin-left: auto;
+  }
+  
+  .header__link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__registration .User {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .header__registration .User-name {
+    font-weight: bold;
+  }
+  
+  .header__registration .User-info {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .header__registration .User-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

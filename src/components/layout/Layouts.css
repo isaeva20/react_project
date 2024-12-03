@@ -1,0 +1,25 @@
+.news-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .news-item {
+    margin-bottom: 20px;
+  }
+  
+  .news-content {
+    padding: 15px;
+  }
+  
+  .news-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .news-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
